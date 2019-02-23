@@ -1,0 +1,46 @@
+body {
+    font-family: Verdana,Geneva,sans-serif;
+    margin: 0px;
+}
+
+.hide {
+    display: None;
+}
+
+.left {
+    background-color: silver;
+    width: 20%;
+    display: inline-block;
+}
+
+blockquote {
+    padding-left: 1%;
+    margin: 0px;
+    border-right: 1px solid black;
+}
+
+.side-menu {
+    border-bottom: 1px solid black;
+}
+
+.right {
+    float: right;
+    width: 75%;
+    display: inline-block;
+}
+
+p {
+    margin-right: 0px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.last {
+    margin-bottom: 0px;
+}

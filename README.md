@@ -4,7 +4,9 @@
 
 # Notes about my assignment
 I edited the html:
-* removed old styling 
+* removed old styling
+* added a couple div tag wrappers
+* previously the order of the html was: title, chapters, then actual book. I changed this to be: chapters, title, then actual book. 
 
 
 
