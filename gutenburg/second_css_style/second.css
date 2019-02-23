@@ -1,0 +1,23 @@
+.hide {
+    display: None;
+}
+
+body {
+    background-image: url("photos/paper.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    position: relative;
+    font-family: Impact, Charcoal, sans-serif;
+    padding-left: 3em;
+}
+
+.left {
+    
+}
+
+img {
+    width: 50%;
+}

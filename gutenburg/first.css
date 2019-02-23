@@ -11,12 +11,12 @@ body {
     background-color: silver;
     width: 20%;
     display: inline-block;
+    padding-left: 1%;
+    border-right: 1px solid black;
 }
 
 blockquote {
-    padding-left: 1%;
     margin: 0px;
-    border-right: 1px solid black;
 }
 
 .side-menu {
@@ -43,4 +43,16 @@ a:visited {
 
 .last {
     margin-bottom: 0px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid black;
+}
+
+img {
+    width: 50%;
 }
