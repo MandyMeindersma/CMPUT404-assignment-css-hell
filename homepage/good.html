@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mandy's Good Webpage</title>
+        <meta charset="UTF-8"/>
+        <link href="good.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Header -->
+        <div class="header">
+            <p class="hello-world left center-vertically">
+                Hello World!
+            </p>
+            <a href="#great" class="header-button center-vertically last">
+                Why I will be great <br/> for your company
+            </a>
+            <a href="#history" class="header-button center-vertically">
+                History
+            </a>
+            <a href="" class="header-button center-vertically" id="first-focus">
+                Who I am
+            </a>
+        </div>
+        <!-- This will be the left side, taking up most of the screen, has history and offerings -->
+        <div class="sections left">
+            <div class="who-I-am">
+                <img class="profile-photo" src="photos/Mandy.jpg" alt="profile picture of Mandy">
+                <h3>Mandy Meindersma</h3>
+                <p> I am a fourth year computing science student at the University of Alberta. I finally graduate in April 2019! I love yoga, cats and growing cacti. The world is full of opportunities and I aim to take advantage of as many as I can. I have been lucky to have a lot of internships through out my education.
+                    I have learned a ton and they have helped me so much. Intuit is the reason I have my cool graduation timer above, we did a coding camp with kids and taught them how to make their own timers! I am excited for what ever comes next.
+                </p>
+            </div>
+            <hr/>
+            <div class="history">
+                <a name="history">
+                    <h3><br/><br/><br/></h3>
+                </a>
+                <h3>History</h3>
+                <h5>Software Engineer Intern | Intuit USA<br/>
+                May 2018 to August 2018 – Financial software</h5>
+                <p>Made internal tools for other developers by changing legacy code that was 3+ years old.<br/>
+                Completed stories and bugs efficiently via Agile and Kanban environments.<br/>
+                Improved documentation for running, testing and contributing to repositories.</p>
+                <h5>Imaging Programmer | Mazakowski Heart Institute<br/>
+                November 2016 to March 2018 – Research lab</h5>
+                <p>Refined an existing code base to analyze Cardiac MRI’s allowing analysis of abnormalities.<br/>
+                Ran user studies on physicians to iterate on the user interface with continuous feedback.<br/>
+                Presented at multiple conferences around Canada about my lab research work.</p>
+                <h5>Software Developer Intern | Intuit Canada<br/>
+                January 2017 to December 2017 – Financial software</h5>
+                <p>Coded Front-End, Back-End and User Interface automation while on 12-person team.<br/>
+                Specialized in coding React, Redux and Dojo and having at least 85% of code unit tested.<br/>
+                Learned how to make applications more accessible for users with disabilities using ARIA.<br/>
+                Experimented with various technologies such as graphQL to improve integration tests.</p>
+            </div>
+            <hr/>
+            <div class="offerings">
+                <a name="great">
+                    <h3><br/><br/><br/></h3>
+                </a>
+                <h3>Why I will be great for your Company</h3>
+                <h5>SKILLS</h5>
+                <p>Fluent in Python, JavaScript, HTML, CSS<br/>
+                Proficient in SQL, MATLAB, C, Java, ROS<br/>
+                <strong>Tools:</strong> Git, JIRA, PyQt, Jenkins (CI/CD)<br/>
+                <strong>Frameworks:</strong> React, Redux, D3.js <p/>
+                <h1><br/><br/><br/><br/><br/><br/><br/></h1>
+            </div>
+        </div>
+        <!-- This will be the sidebar with links to other projects -->
+        <div class="sidebar right">
+            <h3 class="important-header"> Important Points</h3>
+            <p class="important-para first">I volunteer any chance that I get.</p>
+            <hr class="sidebar-hr"/>
+            <p class="important-para">I am trying to find a career that combines my love of robotics and Front-End Development.</p>
+            <hr class="sidebar-hr"/>
+            <p class="important-para">Lately I have been trying to take a lot of Human Robot Interaction online courses</p>
+            <hr class="sidebar-hr"/>
+            <p class="important-para">I am the president of Ada's Team.</p>
+        </div>
+        <!-- Footer -->
+        <div class="footer center">
+            Copyright &copy; Mandy Meindersma 2019
+        </div>
+    </body>
+    <script type="text/javascript" language="JavaScript">
+        document.getElementById("first-focus").focus();
+    </script>
+</html>

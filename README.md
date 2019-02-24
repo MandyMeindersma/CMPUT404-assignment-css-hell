@@ -3,7 +3,7 @@
 
 
 # Notes about my assignment
-I was a little confused on how many different css styles we were supposed to create so I created two different css styles and applied them to all 3 html files. (See the second_css_style folder)
+I was a little confused on how many different css styles we were supposed to create for the gutenburg books so I created two different css styles and applied them to all 3 html files. (See the /second_css_style folder OR ignore it if I made an incorrect assumption). I remember Hindle saying he would like a dark and a light theme in class but the assignment specs never mentioned it so I just added another theme for fun. Sorry.
 </br>
 </br>
 I edited the html:
@@ -17,8 +17,11 @@ I edited the html:
 
 # Resources used
 http://css.cool/#/ </br>
-W3schools: https://www.w3schools.com/cssref/pr_background-image.asp
-
+W3schools: https://www.w3schools.com/cssref/pr_background-image.asp </br>
+MDN web docs: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables </br>
+Color Hexa: https://www.colorhexa.com/77448b </br>
+ankitd: https://stackoverflow.com/questions/8865458/how-do-i-vertically-center-text-with-css </br>
+Ilan Biala: https://stackoverflow.com/questions/2584138/css3-continuous-rotate-animation-just-like-a-loading-sundial <br/>
 
 
 

@@ -1,0 +1,157 @@
+:root {
+    --my-brand-purple: #77448b;
+    --lighter-purple: #d2b7dc; /*used for text shadow*/
+    --darker-purple: #28172f; /*used for text shadow*/
+    --background-purple: #b083c2;
+    --major-green: #247B7B;
+    --minor-green: #44A1A0;
+}
+
+html {
+    position: relative;
+}
+
+body {
+    font-family: Verdana,Geneva,sans-serif;
+    margin: 0px;
+    background-color: var(--background-purple);
+    height: 100%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.header {
+    height: 2em;
+    padding: 1em;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+    background-color: var(--my-brand-purple);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.hello-world {
+    margin: 0px;
+    padding-left: 1em;
+}
+
+.center-vertically {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+
+.header-button {
+    float: right;
+    font-weight: bold;
+    margin-left: 2em;
+    font-size: large;
+    color: white;
+    border: none;
+    background-color: var(--my-brand-purple);
+    text-shadow: 0px 0px 8px var(--darker-purple);
+}
+
+.header-button:hover {
+    cursor: pointer;
+}
+
+.header-button:focus {
+    text-shadow: 0px 0px 8px var(--lighter-purple);
+    border: none;
+    outline: none;
+}
+
+.sections {
+    margin-top: 6em;
+    width: 80%;
+}
+
+.sidebar {
+    margin-top: 4.5em;
+    background-color: var(--minor-green);
+    width: 15%;
+    box-shadow: inset 0 0 8px var(--major-green);
+}
+
+.important-header {
+    background-color: var(--major-green);
+    margin-top: 0px;
+    padding: 1em;
+    margin-left: 0px;
+}
+
+.profile-photo {
+    width: 10em;
+    border-radius: 5px;
+    margin-left: 5em;
+    margin-bottom: 0px;
+    margin-top: 2em;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+p {
+    margin-left: 5em;
+}
+
+h5 {
+    margin-left: 4em;
+}
+
+h3 {
+    margin-left: 1em;
+}
+
+.important-para {
+    margin-left: 0px;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+}
+
+.first {
+    padding-top: 0px;
+}
+
+.sidebar-hr {
+    border: none;
+    box-shadow: 0 0 5px 1px var(--major-green);
+}
+
+hr {
+    border: 1px solid var(--my-brand-purple);
+}
+
+.footer {
+    width: 100%;
+    bottom: 0px;
+    position: absolute;
+    padding-bottom: 1em;
+}
+
+.center {
+    text-align: center;
+}
+
+.last {
+    padding-right: 1em;
+}

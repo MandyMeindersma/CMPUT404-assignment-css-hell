@@ -1,0 +1,160 @@
+:root {
+    --my-brand-purple: #77448b;
+    --lighter-purple: #d2b7dc; /*used for text shadow*/
+    --darker-purple: #28172f; /*used for text shadow*/
+    --background-purple: #b083c2;
+    --major-green: #247B7B;
+    --minor-green: #44A1A0;
+}
+
+html {
+    position: relative;
+}
+
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin: 0px;
+    background-image: url("photos/purple.jpg");
+    height: 100%;
+    color: var(--my-brand-purple);
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.header {
+    height: 2em;
+    padding: 1em;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+    background-color: var(--major-green);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.hello-world {
+    margin: 0px;
+    padding-left: 1em;
+}
+
+.center-vertically {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+
+.header-button {
+    float: right;
+    font-weight: bold;
+    margin-left: 2em;
+    font-size: large;
+    color: white;
+    border: none;
+    background-color: var(--my-brand-purple);
+}
+
+.sections {
+    margin-top: 6em;
+    width: 80%;
+}
+
+.sidebar {
+    margin-top: 4.5em;
+    background-color: var(--minor-green);
+    width: 15%;
+    box-shadow: inset 0 0 8px var(--major-green);
+}
+
+.thing:nth-child(odd){
+    background-image: linear-gradient(red, yellow);
+}
+
+.thing:nth-child(even){
+    background-image: linear-gradient(yellow, red);
+}
+
+.important-header {
+    background-color: var(--major-green);
+    margin-top: 0px;
+    padding: 1em;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.profile-photo {
+    width: 10em;
+    border-radius: 5px;
+    margin-left: 5em;
+    margin-bottom: 0px;
+    margin-top: 2em;
+}
+
+p {
+    margin-left: 5em;
+    text-align: center;
+}
+
+h5 {
+    margin-left: 4em;
+}
+
+h3 {
+    margin-left: 1em;
+    color: yellow;
+}
+
+.important-para {
+    margin-left: 0px;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 0px;
+    padding-top: 1em;
+}
+
+.first {
+    padding-top: 0px;
+}
+
+.sidebar-hr {
+    border: none;
+    box-shadow: 0 0 5px 1px var(--major-green);
+}
+
+hr {
+    border: 1px solid var(--my-brand-purple);
+}
+
+.footer {
+    width: 100%;
+    bottom: 0px;
+    position: absolute;
+    padding-bottom: 1em;
+}
+
+.center {
+    text-align: center;
+}
+
+.last {
+    padding-right: 1em;
+}
+
+img {
+    -webkit-animation: rotation 4s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(359deg);}
+}
