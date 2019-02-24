@@ -6,12 +6,15 @@
 I was a little confused on how many different css styles we were supposed to create for the gutenburg books so I created two different css styles and applied them to all 3 html files. (See the /second_css_style folder OR ignore it if I made an incorrect assumption). I remember Hindle saying he would like a dark and a light theme in class but the assignment specs never mentioned it so I just added another theme for fun. Sorry.
 </br>
 </br>
-I edited the html:
+I edited the gutenburg html:
 * removed old styling
 * added a couple div tag wrappers
 * previously the order of the html was: title, chapters, then actual book. I changed this to be: chapters, title, then actual book. I only did this for the first css styling, not for the second.
 * adding a link tag in the head to get the css styling imported
-* adding class names to some html tags
+* adding class names to some html tags <br/>
+
+<br/>
+I also added a gif of my bad site so you can see the sick animation
 
 
 
